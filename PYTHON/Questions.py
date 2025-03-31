@@ -4,6 +4,7 @@
 #
 # print("Sum of ", a, " and ", b, " is ", a + b)
 
+
 # # Inputting side of square and printing its area
 # side = int(input("Enter side :- "))
 # print("Area of square :- ", side ** 2)
@@ -144,8 +145,33 @@
 # print(sum)
 
 # Printing factorial of n
-fact = 1
-n = 5
-for i in range(1, n + 1):
-    fact *= i
-    print(fact)
+# fact = 1
+# n = 5
+# for i in range(1, n + 1):
+#     fact *= i
+#     print(fact)
+
+# Program to print length of list using function
+# list1 = [2, 43, 45, 4, 3, 345, 43, 2, 43, 34, 2, 4, 3, 4]
+# def print_list(list):
+#     print(len(list))
+
+# def Print_list(list):
+#     for item in list:
+#         print(item, end=" ")
+# print_list(list1)
+
+# Printing factorial of n using function
+# def facto(n):
+#     fact = 1
+#     for i in range(1,n+1):
+#         fact *= i
+#     return fact
+#
+# print(facto(4))
+
+# Converting usd to inr
+# def convert(usd):
+#     return usd * 86
+#
+# print(convert(1))
